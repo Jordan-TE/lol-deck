@@ -1,0 +1,148 @@
+{
+	"Name": "lol-deck",
+	"Version": "0.1.0.0",
+	"Author": "mkstorm",
+	"Actions": [
+        {
+            "UUID": "com.mkstorm.lol-deck.flash",
+            "Name": "Flash Timer",
+            "Icon": "imgs/actions/summonersSpells/Flash_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Flash_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.ignite",
+            "Name": "Ignite Timer",
+            "Icon": "imgs/actions/summonersSpells/Ignite_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Ignite_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.heal",
+            "Name": "Heal Timer",
+            "Icon": "imgs/actions/summonersSpells/Heal_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Heal_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.ghost",
+            "Name": "Ghost Timer",
+            "Icon": "imgs/actions/summonersSpells/Ghost_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Ghost_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.barrier",
+            "Name": "Barrier Timer",
+            "Icon": "imgs/actions/summonersSpells/Barrier_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Barrier_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.exhaust",
+            "Name": "Exhaust Timer",
+            "Icon": "imgs/actions/summonersSpells/Exhaust_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Exhaust_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.clarity",
+            "Name": "Clarity Timer",
+            "Icon": "imgs/actions/summonersSpells/Clarity_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Clarity_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.teleport",
+            "Name": "Teleport Timer",
+            "Icon": "imgs/actions/summonersSpells/Teleport_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Teleport_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        },
+        {
+            "UUID": "com.mkstorm.lol-deck.cleanse",
+            "Name": "Cleanse Timer",
+            "Icon": "imgs/actions/summonersSpells/Cleanse_HD",
+            "States": [
+                {
+                    "Image": "imgs/actions/summonersSpells/Cleanse_HD",
+                    "FontSize": 20,
+                    "TitleAlignment": "middle",
+                    "ShowTitle": true
+                }
+            ]
+        }
+    ],
+	"Category": "lol-deck",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "stream deck plugin to manage summoners in league of legends",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.mkstorm.lol-deck"
+}
